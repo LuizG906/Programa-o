@@ -10,24 +10,25 @@ body {
 
 
 /* Estilo para a div que contém a imagem */
-.imagem-container {
+} .imagem-container {
     text-align: center; /* Garante que a imagem fique centralizada */
 }
 
 /* Estilo para as imagens */
-img {
+
+img {  
     max-width: Defina o tamanho da fonte; /* A imagem nunca ultrapassará a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
 }
 
 /* Estilo para o título h1 */
 h1 {
-    color:red;
+    color:rgb(255, 60, 0);
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
 }
 
 /* Estilo para o subtítulo h2 */
 h2 {
-    color:purple;
+    color:rgb(247, 53, 5);
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
-}}
+}
