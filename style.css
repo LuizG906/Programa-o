@@ -17,18 +17,41 @@ body {
 /* Estilo para as imagens */
 
 img {  
-    max-width: Defina o tamanho da fonte; /* A imagem nunca ultrapassará a largura da tela */
+    max-width: 500px; /* A imagem nunca ultrapassará a largura da tela */
     height: auto; /* Mantém a proporção da imagem */
+    text-align: center;
 }
 
 /* Estilo para o título h1 */
 h1 {
     color:rgb(255, 60, 0);
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
+    text-align: left;
 }
 
 /* Estilo para o subtítulo h2 */
 h2 {
     color:rgb(247, 53, 5);
     margin-top: Defina o tamanho da fonte; /* Espaço superior */
+    text-align: left;
+}
+h3 {
+    color: dimgray;
+    margin-top: xxx;
+    text-align:left ;
+}
+h4 {
+    color: black;
+    margin-top:xxx ;
+    text-align: left;
+}
+h5 {
+    color: black;
+    margin-top: auto;
+    text-align: left;
+}
+head2 {
+    color: red;
+    margin-top: auto;
+    text-align: center;
 }
