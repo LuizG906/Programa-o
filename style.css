@@ -1,57 +1,64 @@
-/* Estilo para o body */
+/* Estilo para o body com imagem de fundo */
 body {
     display: flex;
-    flex-direction: column; /* Organiza os elementos verticalmente */
-    justify-content: center; /* Centraliza no eixo vertical */
-    align-items: center; /* Centraliza no eixo horizontal */
-    height: 120vh; /* Faz o body ocupar 100% da altura da tela */
-    margin: 0; /* Remove a margem padrão */
-    text-align: center; /* Centraliza os textos */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+    text-align: center;
 
+    /* IMAGEM DE FUNDO */
+    background-image: url('images.jpeg'); /* Certifique-se que o caminho está correto */
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /* Estilo para a div que contém a imagem */
-} .imagem-container {
-    text-align: center; /* Garante que a imagem fique centralizada */
+.imagem-container {
+    text-align: center;
 }
 
 /* Estilo para as imagens */
-
-img {  
-    max-width: 500px; /* A imagem nunca ultrapassará a largura da tela */
-    height: auto; /* Mantém a proporção da imagem */
+img {
+    max-width: 500px;
+    height: auto;
     text-align: center;
 }
 
-/* Estilo para o título h1 */
+/* Estilo para títulos */
 h1 {
-    color:rgb(255, 60, 0);
-    margin-top: Defina o tamanho da fonte; /* Espaço superior */
+    color: rgba(0, 23, 124, 0.781);
+    margin-top: 20px;
     text-align: left;
 }
 
-/* Estilo para o subtítulo h2 */
 h2 {
-    color:rgb(247, 53, 5);
-    margin-top: Defina o tamanho da fonte; /* Espaço superior */
+    color: rgba(20, 2, 122, 0.664);
+    margin-top: 15px;
     text-align: left;
 }
+
 h3 {
     color: dimgray;
-    margin-top: xxx;
-    text-align:left ;
+    margin-top: 10px;
+    text-align: left;
 }
+
 h4 {
     color: black;
-    margin-top:xxx ;
+    margin-top: 10px;
     text-align: left;
 }
+
 h5 {
     color: black;
-    margin-top: auto;
+    margin-top: 10px;
     text-align: left;
 }
-head2 {
-    color: red;
+head2 {color: rgb(129, 188, 190);
     margin-top: auto;
     text-align: center;
-}
+font-size: 56px}
+; /* Certifique*
