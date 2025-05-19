@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 200vh;
     margin: 0;
     text-align: center;
 
@@ -22,14 +22,14 @@ body {
 
 /* Estilo para as imagens */
 img {
-    max-width: 500px;
+    max-width: 300px;
     height: auto;
     text-align: center;
 }
 
 /* Estilo para títulos */
 h1 {
-    color: rgba(0, 23, 124, 0.781);
+    color: rgb(186, 253, 255);
     margin-top: 20px;
     text-align: left;
 }
@@ -61,4 +61,4 @@ head2 {color: rgb(129, 188, 190);
     margin-top: auto;
     text-align: center;
 font-size: 56px}
-; /* Certifique*
+
