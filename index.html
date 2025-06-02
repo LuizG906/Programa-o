@@ -1,89 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho de Programação</title>
-
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho 2025</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <div class="logo">Festejando conexão campo-cidade</div>
+    <nav id="nav">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#video">Vídeo</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+      </ul>
+      <button id="menu-toggle">☰</button>
+    </nav>
+  </header>
 
-    <h1> Trabalho de Programaçao </h1>
-    <h2>
-        Prof. Daniele</h2>
-    <img src="programming-background-with-person-working-with-codes-computer-1200x800.jpg" alt="Envagelizando">
-
-    <button
-onclick="mostrarImagem()"> Luiz Gabriel
-  N° 18</button>
-
-
-    <img id="imagem"
-src="luiz.jpg" style="display: none; width: 500px;">
-
-
-   
-
-
-    <script>
-
-
-        function mostrarImagem() {
-
-
-            document.getElementById("imagem").style.display
-= "block";
-
-
-        }
-
-
-    </script>
-    <div>
-   
-               <head2> FIM </head2>
-                
+  <section id="sobre">
+    <h2>Sobre</h2>
+    <div class="sobre-conteudo">Iremos ver como acontece a conexão entre o campo e a cidade. Espero que goste!</p>
     </div>
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <h1> Isaías 53</h1>
-      </head>
-      <body>
-        <h1>Vídeo - A Cruz Era Pra Mim - Pedro Henrique</h1>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/h9dX-d1Yeto" frameborder="0" allowfullscreen></iframe>
-      </body>
-    </html>
-    
-  <div class="form-container">
-    <form id="contatoForm">
-        <label for="nome">Nome:</label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+  </section>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+  <section id="video">
+    <h2>Vídeo em Destaque</h2>
+    <div class="video-container">
+      <iframe src="https://youtu.be/4TuWsDxubAo?si=VRQzADSSKhksGVtL" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
 
-        <label for="mensagem">Mensagem:</label>
-        <input type="text" id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required>
+  <section id="galeria">
+    <h2>Galeria de Imagens</h2>
+    <div class="galeria">
+      <img src="_image.webp" alt="Imagem 1" />
+      <img src="tre.jpg" alt="Imagem 2" />
+      <img src="Exodo-rural-2.jpeg" alt="Imagem 3" />
+    </div>
+  </section>
 
-        <button type="submit">Enviar</button>
-    </form>
-</div>
-<script>
-  document.getElementById('contatoForm').addEventListener('submit', function(event) {
-      event.preventDefault(); // Evita envio real
-      const nome = document.getElementById('nome').value;
-      alert(`Obrigado, ${nome}! Sua mensagem foi enviada com sucesso.`);
-      this.reset(); // Limpa o formulário
-  });
-</script>
-<h3>A tag input cria campos de entrada de dados em formulários HTML, <p>enquanto a tag label define o rótulo para um campo de entrada, <p>tornando o formulário mais acessível e fácil de usar. 
-</h3>
-<h2> A Tag input:</h2>
-<h3>- Cria diferentes tipos de campos de entrada, como caixas de texto, caixas de seleção, botões de rádio, seleções, etc.<p>
- - É usada dentro da tag <form> para coletar informações do usuário.<p>
- - O atributo type define o tipo de campo de entrada (por exemplo, text, email, date, checkbox). </h3>
+  <footer>
+    <p>&copy; Agrinho 2025: Campo-Cidade.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <section class="texto-conexao">
+    <h2>Conexão Campo-Cidade</h2>
+    <p>
+      A conexão entre campo-cidade se dá da seguinte maneira: o campo fornece a matéria-prima, 
+      os materiais e o sustento (alimentos). Em troca, a cidade produz tecnologias para melhorar a produtividade,
+       eficácia e a qualidade de vida.
+       Essa relação é muito importante, até porque, se o campo não produz, 
+       a cidade não evolui; e se a cidade não evolui, o campo, por sua vez, não produz.
+       Está na hora da sociedade cair em si e lembrarmos de festejar essa relação, também contribuindo e valorizando essa ligação!
+    </p>
+  </section>
+  
 </body>
 </html>
